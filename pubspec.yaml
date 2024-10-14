@@ -1,0 +1,48 @@
+name: pobpad
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  rename_app: ^1.6.1
+  flutter_test:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/healthme.png"
+  min_sdk_android: 21
+
+flutter_lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/images/other.png
+    - assets/images/meal.png
+    - assets/images/activity.png
+    - assets/images/medication.png
+    - assets/images/heart.png
+    - assets/images/period.png
+    - assets/images/sleep.png
+    - assets/images/healthme.png
+    - assets/images/profile.png
+    - assets/images/history.png
+    - assets/images/cal.png
+
+  uses-material-design: true
+
+
